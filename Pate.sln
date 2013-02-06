@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pate", "sources\Pate\Pate.csproj", "{4A440DAA-1C1E-41B5-B6BC-3905EB66398B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration Tests", "Integration Tests", "{983581F9-A9CE-4200-A37A-C54C65ABB007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pate.Tests.Integration", "sources\Pate.Tests.Integration\Pate.Tests.Integration.csproj", "{B7E45E1B-59F1-424A-A0E0-C7A2748DBA5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A440DAA-1C1E-41B5-B6BC-3905EB66398B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A440DAA-1C1E-41B5-B6BC-3905EB66398B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A440DAA-1C1E-41B5-B6BC-3905EB66398B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A440DAA-1C1E-41B5-B6BC-3905EB66398B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E45E1B-59F1-424A-A0E0-C7A2748DBA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E45E1B-59F1-424A-A0E0-C7A2748DBA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E45E1B-59F1-424A-A0E0-C7A2748DBA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E45E1B-59F1-424A-A0E0-C7A2748DBA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7E45E1B-59F1-424A-A0E0-C7A2748DBA5C} = {983581F9-A9CE-4200-A37A-C54C65ABB007}
+	EndGlobalSection
+EndGlobal
